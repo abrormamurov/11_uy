@@ -8,18 +8,26 @@ function BooksContainer() {
   return (
     <>
       <div className="mb-5 border-b py-3 flex items-center justify-between">
-        <h3 className="font-medium">10 books</h3>
-        <div>
+        <h3 className="font-bold text-2xl p-10">10 books</h3>
+        <div className="p-10">
           {view === true ? (
             <>
               {" "}
-              <button size="large" onClick={() => setView(false)}>
+              <button
+                className="text-2xl font-bold"
+                size="large"
+                onClick={() => setView(false)}
+              >
                 Grid
               </button>
             </>
           ) : (
             <>
-              <button size="large" onClick={() => setView(true)}>
+              <button
+                className="text-2xl font-bold"
+                size="large"
+                onClick={() => setView(true)}
+              >
                 List
               </button>
             </>
