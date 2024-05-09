@@ -16,11 +16,11 @@ function BooksList() {
         <h2 className="card-title">cover: "Hardcover"</h2>
 
         <p className="mb-8">
-          description: "Asarda insonlar taqdiri va inson umrining murakkabligini
-          mahorat bilan tasvirlangan. Adib, birinchi navbatda, tinchlikka rahna
-          solgan urushni tilga oladi. Ayniqsa, urush voqeligining har bir
-          ota-ona qalbini jarohatlagani, koʻngillariga ozor yetkazgani romanning
-          umuminsoniy pafosini tashkil etadi.
+          <b>description:</b> "Asarda insonlar taqdiri va inson umrining
+          murakkabligini mahorat bilan tasvirlangan. Adib, birinchi navbatda,
+          tinchlikka rahna solgan urushni tilga oladi. Ayniqsa, urush
+          voqeligining har bir ota-ona qalbini jarohatlagani, koʻngillariga ozor
+          yetkazgani romanning umuminsoniy pafosini tashkil etadi.
         </p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Listen</button>

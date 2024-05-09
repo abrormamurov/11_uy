@@ -15,15 +15,15 @@ function BooksGrid() {
         <ol className="mb-3 card-title"> genres: "novel" "detectiv"</ol>
         <p className="mb-3 card-title">cover: "Hardcover"</p>
         <p className="mb-8">
-          description: "Asarda insonlar taqdiri va inson umrining murakkabligini
-          mahorat bilan tasvirlangan. Adib, birinchi navbatda, tinchlikka rahna
-          solgan urushni tilga oladi. Ayniqsa, urush voqeligining har bir
-          ota-ona qalbini jarohatlagani, koʻngillariga ozor yetkazgani romanning
-          umuminsoniy pafosini tashkil etadi. Adib qalamga olgan obrazlari oddiy
-          odamlarning fazilatlari — mardligi, matonati, vatanparvarligi va
-          sabr-bardoshi haqida soʻzlaydi. Tajribali yozuvchi roman hodisalarini
-          teran oʻrgangani uchun har bir epizod oʻquvchini qalbiga jiddiy taʼsir
-          qiladi."
+          <b>description:</b> "Asarda insonlar taqdiri va inson umrining
+          murakkabligini mahorat bilan tasvirlangan. Adib, birinchi navbatda,
+          tinchlikka rahna solgan urushni tilga oladi. Ayniqsa, urush
+          voqeligining har bir ota-ona qalbini jarohatlagani, koʻngillariga ozor
+          yetkazgani romanning umuminsoniy pafosini tashkil etadi. Adib qalamga
+          olgan obrazlari oddiy odamlarning fazilatlari — mardligi, matonati,
+          vatanparvarligi va sabr-bardoshi haqida soʻzlaydi. Tajribali yozuvchi
+          roman hodisalarini teran oʻrgangani uchun har bir epizod oʻquvchini
+          qalbiga jiddiy taʼsir qiladi."
         </p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Listen</button>
