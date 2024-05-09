@@ -12,4 +12,7 @@
   #root {
     @apply flex flex-col scroll-p-2.5;
   }
+  .BooksGrid {
+    @apply flex;
+  }
 }

@@ -28,7 +28,7 @@ function BooksContainer() {
       </div>
       {view === true ? (
         <>
-          <div>
+          <div className="flex justify-evenly	scroll-mb-96	">
             <BooksGrid />,
             <BooksGrid />,
             <BooksGrid />,
