@@ -36,10 +36,10 @@ function BooksContainer() {
         </>
       ) : (
         <>
-          <div>
-            <BooksList />
-            <BooksList />
-            <BooksList />
+          <div className="gap-10 scroll-mb-96">
+            <BooksList className="scroll-mb-96" />
+            <BooksList className="mb-10" />
+            <BooksList className="mb-10" />
           </div>
         </>
       )}
